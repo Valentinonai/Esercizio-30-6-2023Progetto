@@ -38,13 +38,19 @@ p {
 }
 header {
   background-color: black;
+  padding-inline-start: 50px;
   padding-block: 30px;
-  text-align: center;
+  text-align: left;
 }
 .section1 {
   background-image: url("./../images/banner.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  height: 400px;
+  padding-block-start: 200px;
+}
+.section1 p {
+  padding-inline: 33vw;
 }
 button {
   cursor: pointer;
@@ -62,10 +68,22 @@ button {
   margin-block-end: 40px;
 }
 .section2 img {
+  display: inline-block;
   padding-block: 20px;
   border-radius: 50%;
+  margin-block-start: 100px;
+  vertical-align: middle;
 }
-
+.description {
+  display: inline-block;
+  padding-inline-start: 40px;
+  vertical-align: middle;
+}
+.description h3,
+.description p {
+  text-align: left;
+  padding-inline-start: 0;
+}
 .section3 {
   background-color: #e22d0e;
   padding-block: 40px;
@@ -91,13 +109,17 @@ button {
 }
 
 .scheda {
+  display: inline-block;
+  width: 400px;
+  height: 450px;
   border: 1px solid #dee1e3;
-  margin-inline: 25px;
+  margin-inline: 10px;
   padding-block-end: 20px;
-  margin-block-start: 30px;
+  vertical-align: text-top;
 }
 .scheda img {
   width: 400px;
+  height: 250px;
 }
 .scheda p {
   padding-inline: 20px;
@@ -130,9 +152,17 @@ footer p:last-of-type {
   font-size: 15px;
   opacity: 70%;
 }
+footer p {
+  text-align: left;
+  padding-inline-start: 44vw;
+}
+footer h1 {
+  text-align: left;
+  padding-inline-start: 44vw;
+}
 hr {
   size: 1px;
-  width: 45%;
+  width: 400px;
   color: white;
   opacity: 60%;
 }
