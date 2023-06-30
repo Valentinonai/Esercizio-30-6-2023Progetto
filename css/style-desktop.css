@@ -1,0 +1,138 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+  text-align: center;
+  padding-block: 20px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  padding-block-start: 40px;
+  padding-block-end: 30px;
+  padding-inline: 40px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1; /*la rappresentazione a 1.5 non mi sembrava realistica con l'esempio  */
+}
+
+.container {
+  margin: 0px 10px;
+  margin-inline: auto;
+}
+p {
+  padding-inline: 50px;
+}
+header {
+  background-color: black;
+  padding-block: 30px;
+  text-align: center;
+}
+.section1 {
+  background-image: url("./../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+button {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: #f04c2f;
+  padding-inline: 40px;
+  padding-block: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-block: 40px;
+}
+.section2 {
+  padding-block: 20px;
+  margin-block-end: 40px;
+}
+.section2 img {
+  padding-block: 20px;
+  border-radius: 50%;
+}
+
+.section3 {
+  background-color: #e22d0e;
+  padding-block: 40px;
+  color: white;
+  margin-block-end: 50px;
+}
+
+.section3 h1 {
+  font-size: 35px;
+  color: white;
+}
+.section3 p:first-of-type {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin-block-end: 20px;
+  padding-inline: 10px;
+  font-weight: 300;
+}
+.section3 p:last-of-type {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.scheda {
+  border: 1px solid #dee1e3;
+  margin-inline: 25px;
+  padding-block-end: 20px;
+  margin-block-start: 30px;
+}
+.scheda img {
+  width: 400px;
+}
+.scheda p {
+  padding-inline: 20px;
+}
+
+footer {
+  margin-block-start: 80px;
+  background-color: #25a2c3;
+  color: white;
+  font-weight: 300;
+  padding-block-end: 60px;
+  line-height: 1.2;
+}
+footer span {
+  opacity: 80%;
+  font-size: 1rem;
+}
+footer h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+footer a {
+  color: white;
+}
+footer p:nth-of-type(3) {
+  margin-block-end: 30px;
+}
+footer p:last-of-type {
+  padding-block-start: 20px;
+  font-size: 15px;
+  opacity: 70%;
+}
+hr {
+  size: 1px;
+  width: 45%;
+  color: white;
+  opacity: 60%;
+}
